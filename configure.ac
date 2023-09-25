@@ -77,7 +77,6 @@ AM_CONDITIONAL(ENABLE_STATS, test "$enable_stats" != "no")
 
 
 # Checks for programs.
-AC_PROG_CXX
 AC_PROG_CC
 AM_PROG_CC_C_O
 LT_INIT # AC_PROG_LIBTOOL
