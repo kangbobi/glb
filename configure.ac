@@ -3,6 +3,7 @@
 
 AC_PREREQ(2.50)
 AC_INIT(glb, 1.0.1, info@codership.com)
+AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_SRCDIR([src/glb_main.c])
 AC_CONFIG_HEADER([config.h])
 AC_CANONICAL_SYSTEM
