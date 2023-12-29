@@ -37,9 +37,9 @@ THREADS=4
 
 if [ -f /etc/redhat-release ]
 then
-	config=/etc/sysconfig/glbd
+	config=/etc/sysconfig/glbd.cfg
 else
-	config=/etc/default/glbd
+	config=/etc/default/glbd.cfg
 fi
 
 . $config
